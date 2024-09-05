@@ -9,7 +9,7 @@ const ComingSoon = () => {
   });
 
   useEffect(() => {
-    const countdownDate = new Date("2024-12-31T00:00:00").getTime();
+    const countdownDate = new Date("2024-11-31T00:00:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
